@@ -75,3 +75,12 @@
   - deployment settings are documented for handoff
 - Rollback:
   - remove `.gitignore`, `runtime.txt`, `.streamlit/config.toml`, and `STREAMLIT_DEPLOYMENT_20260427.md`
+
+## Streamlit Cloud Runtime Fix 20260428
+
+- Reason: deployed app showed Streamlit Cloud `Oh no. Error running app` while local app rendered successfully.
+- Root cause candidate: `plotly.express` uses `trendline="ols"` in the UI, which requires `statsmodels`; local environment had `statsmodels`, but `requirements.txt` did not declare it for Streamlit Cloud.
+- Scope: dependency declaration only.
+- Change: added `statsmodels` to `requirements.txt`.
+- Impact: Streamlit Cloud fresh installs can render OLS trendline charts used in overview/diagnostics pages.
+- Rollback: remove `statsmodels` from `requirements.txt` and remove or replace the Plotly OLS trendline calls.
