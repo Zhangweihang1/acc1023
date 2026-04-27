@@ -1,0 +1,12 @@
+{
+  "RUN_DATE": "20260423",
+  "ROUTE_MODE": "B_B_LIGHTWEIGHT",
+  "UNIVERSE_SIZE": 150,
+  "UNIVERSE_LIQUIDITY_FIELD": "成交额",
+  "FILTER_RULES": [
+    "MARKET in sh/sz",
+    "exclude names containing ST or 退",
+    "rank by 成交额 descending",
+    "keep top 150"
+  ]
+}

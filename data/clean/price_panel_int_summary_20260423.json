@@ -1,0 +1,9 @@
+{
+  "RUN_DATE": "20260423",
+  "INPUT_FILE_COUNT": 150,
+  "ROW_COUNT": 248762,
+  "STOCK_COUNT": 150,
+  "START_DATE": "2019-01-02",
+  "END_DATE": "2026-04-23",
+  "OUTPUT_FILE": "C:\\Users\\38730\\Desktop\\ACC102\\data\\clean\\price_panel_int_20260423.csv"
+}

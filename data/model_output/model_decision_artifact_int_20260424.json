@@ -1,0 +1,43 @@
+{
+  "RUN_DATE": "20260424",
+  "DECISION_TOPIC": "MODEL_SELECTION_REGULARIZED_VS_BOOSTED",
+  "DEFAULT_MODEL_FOR_APP": "REGULARIZED",
+  "RECOMMENDATION": "LOCK_REGULARIZED_AS_DEFAULT",
+  "HOLDOUT_VIEW": {
+    "REGULARIZED_RMSE": 0.015997707222159784,
+    "BOOSTED_RMSE": 0.032852525971425205,
+    "BEST_MODEL": "REGULARIZED",
+    "DELTA_RMSE_BOOSTED_VS_REGULARIZED": 0.01685481874926542
+  },
+  "WALK_FORWARD_VIEW": {
+    "REGULARIZED_RMSE": 0.014165845953698457,
+    "BOOSTED_RMSE": 0.014088568400213743,
+    "DELTA_RMSE_BOOSTED_VS_REGULARIZED": -7.727755348471352e-05
+  },
+  "WHY_RANKING_DIFFERS": [
+    "holdout uses one late time split and amplifies recent-regime sensitivity",
+    "walk-forward averages many rolling windows and can reward a model that adapts better across regimes",
+    "boosted may capture nonlinearity that appears in rolling windows but still overreacts on the final holdout block"
+  ],
+  "DECISION_RULE": [
+    "prefer the simpler and more explainable model when the held-out gap is large",
+    "do not promote boosted to default unless it improves both holdout and walk-forward in a consistent direction",
+    "use further feature expansion rather than more blind tree tuning if the evaluation picture remains mixed"
+  ],
+  "CURRENT_REASONS": [
+    "regularized wins the main held-out benchmark",
+    "boosted is slightly better on aggregate walk-forward RMSE",
+    "regularized remains easier to explain and safer to present as the default app model"
+  ],
+  "NEXT_ACTION_OPTIONS": [
+    "lock regularized as the final submission model and keep boosted as a comparison branch",
+    "add one high-coverage non-price feature layer and rerun the same comparison before changing the default model"
+  ],
+  "SOURCE_FILES": {
+    "COMPARISON": "C:\\Users\\38730\\Desktop\\ACC102\\data\\model_output\\model_comparison_int_20260424.json",
+    "REGULARIZED_SUMMARY": "C:\\Users\\38730\\Desktop\\ACC102\\data\\model_output\\regularized_model_summary_int_20260423.json",
+    "BOOSTED_SUMMARY": "C:\\Users\\38730\\Desktop\\ACC102\\data\\model_output\\boosted_model_summary_int_20260424.json",
+    "REGULARIZED_WALK_FORWARD": "C:\\Users\\38730\\Desktop\\ACC102\\data\\model_output\\walk_forward_regularized_summary_int_20260423.json",
+    "BOOSTED_WALK_FORWARD": "C:\\Users\\38730\\Desktop\\ACC102\\data\\model_output\\walk_forward_boosted_summary_int_20260424.json"
+  }
+}

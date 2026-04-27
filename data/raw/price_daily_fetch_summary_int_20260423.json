@@ -1,0 +1,11 @@
+{
+  "RUN_DATE": "20260423",
+  "UNIVERSE_FILE": "C:\\Users\\38730\\Desktop\\ACC102\\data\\raw\\universe_int_20260423.csv",
+  "ADJUST_MODE": "qfq",
+  "START_DATE": "20190101",
+  "END_DATE": "20260423",
+  "SUCCESS_COUNT": 5,
+  "FAILURE_COUNT": 0,
+  "OUTPUT_FILE_COUNT": 5,
+  "FAILURES": []
+}

@@ -1,0 +1,20 @@
+{
+  "RUN_DATE": "20260423",
+  "ROW_COUNT": 9236,
+  "START_DATE": "1990-12-19",
+  "END_DATE": "2026-04-22",
+  "COLUMN_LIST": [
+    "TRADE_DATE",
+    "CN_GOV_BOND_YIELD_2Y",
+    "CN_GOV_BOND_YIELD_5Y",
+    "CN_GOV_BOND_YIELD_10Y",
+    "CN_GOV_BOND_YIELD_30Y",
+    "CN_YIELD_CURVE_10Y_2Y",
+    "US_GOV_BOND_YIELD_2Y",
+    "US_GOV_BOND_YIELD_5Y",
+    "US_GOV_BOND_YIELD_10Y",
+    "US_GOV_BOND_YIELD_30Y",
+    "US_YIELD_CURVE_10Y_2Y"
+  ],
+  "OUTPUT_FILE": "C:\\Users\\38730\\Desktop\\ACC102\\data\\raw\\macro_rate_int_20260423.csv"
+}

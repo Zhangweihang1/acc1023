@@ -1,0 +1,10 @@
+{
+  "RUN_DATE": "20260423",
+  "INPUT_FILE": "C:\\Users\\38730\\Desktop\\ACC102\\data\\clean\\price_panel_int_20260423.csv",
+  "ROW_COUNT": 248762,
+  "STOCK_COUNT": 150,
+  "VALID_TARGET_COUNT": 248014,
+  "VOL_WINDOW": 20,
+  "TARGET_WINDOW": 5,
+  "OUTPUT_FILE": "C:\\Users\\38730\\Desktop\\ACC102\\data\\feature_store\\target_panel_int_20260423.csv"
+}

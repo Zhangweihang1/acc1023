@@ -1,0 +1,45 @@
+{
+  "RUN_DATE": "20260423",
+  "INPUT_FILE": "C:\\Users\\38730\\Desktop\\ACC102\\data\\feature_store\\feature_panel_int_20260423.csv",
+  "TRAIN_ROWS": 164587,
+  "TEST_ROWS": 44232,
+  "FEATURE_COLUMNS": [
+    "RET_1",
+    "RET_5",
+    "RET_20",
+    "VOLATILITY_5",
+    "VOLATILITY_20",
+    "AMOUNT_MA_5",
+    "TURNOVER_MA_5",
+    "RANGE_PCT",
+    "GAP_PCT",
+    "CN_GOV_BOND_YIELD_10Y",
+    "US_GOV_BOND_YIELD_10Y",
+    "CN_US_10Y_SPREAD",
+    "CN_GOV_BOND_YIELD_10Y_CHG_5",
+    "US_GOV_BOND_YIELD_10Y_CHG_5",
+    "CN_YIELD_CURVE_10Y_2Y_CHG_5"
+  ],
+  "DROPPED_FEATURE_COLUMNS": [
+    "MAIN_NET_INFLOW",
+    "MAIN_NET_INFLOW_RATIO",
+    "XL_NET_INFLOW",
+    "L_NET_INFLOW",
+    "M_NET_INFLOW",
+    "S_NET_INFLOW",
+    "MAIN_NET_INFLOW_MA_5",
+    "MAIN_NET_INFLOW_RATIO_MA_5"
+  ],
+  "MIN_FEATURE_COVERAGE_RATIO": 0.2,
+  "TRAIN_METRICS": {
+    "MAE": 0.011311866257931085,
+    "RMSE": 0.015057254854814808,
+    "R2": 0.09205264257825374
+  },
+  "TEST_METRICS": {
+    "MAE": 0.014080081708691065,
+    "RMSE": 0.01800226753372201,
+    "R2": 0.14102643997045483
+  },
+  "PREDICTION_FILE": "C:\\Users\\38730\\Desktop\\ACC102\\data\\predictions\\baseline_prediction_int_20260423.csv"
+}

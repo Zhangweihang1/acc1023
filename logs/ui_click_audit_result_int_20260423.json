@@ -1,0 +1,65 @@
+{
+  "APP_URL": "http://127.0.0.1:8506",
+  "RESULT_LIST": [
+    {
+      "STEP": "Initial app load",
+      "PASSED": true,
+      "DETAIL": "Main title rendered.",
+      "TIMESTAMP": "2026-04-23T14:19:18.864Z"
+    },
+    {
+      "STEP": "Initial session-state warning check",
+      "PASSED": true,
+      "DETAIL": "No session-state warning banner.",
+      "TIMESTAMP": "2026-04-23T14:19:18.866Z"
+    },
+    {
+      "STEP": "Overview model view toggle",
+      "PASSED": true,
+      "DETAIL": "Both / Baseline / Boosted clicked successfully.",
+      "TIMESTAMP": "2026-04-23T14:19:33.021Z"
+    },
+    {
+      "STEP": "Quick task: Top Risk Picks Today",
+      "PASSED": true,
+      "DETAIL": "Overview quick task routed to Market.",
+      "TIMESTAMP": "2026-04-23T14:19:34.653Z"
+    },
+    {
+      "STEP": "Quick task: Low-Liquidity High-Vol Names",
+      "PASSED": true,
+      "DETAIL": "Overview quick task routed to Screener.",
+      "TIMESTAMP": "2026-04-23T14:19:39.321Z"
+    },
+    {
+      "STEP": "Quick task: Model Failure Cases",
+      "PASSED": true,
+      "DETAIL": "Overview quick task routed to Diagnostics.",
+      "TIMESTAMP": "2026-04-23T14:19:43.053Z"
+    },
+    {
+      "STEP": "Page navigation: Method & Limitations",
+      "PASSED": true,
+      "DETAIL": "Method page rendered.",
+      "TIMESTAMP": "2026-04-23T14:19:45.199Z"
+    },
+    {
+      "STEP": "Date Window selectbox",
+      "PASSED": true,
+      "DETAIL": "Date window switched to Last 30 Days.",
+      "TIMESTAMP": "2026-04-23T14:19:47.430Z"
+    },
+    {
+      "STEP": "Scope selectbox: Live Fetch Only",
+      "PASSED": true,
+      "DETAIL": "Scope switched to Live Fetch Only.",
+      "TIMESTAMP": "2026-04-23T14:19:49.655Z"
+    },
+    {
+      "STEP": "Audit runtime failure",
+      "PASSED": false,
+      "DETAIL": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=Latest Rows') to be visible\u001b[22m\n\n    at clickPage (C:\\Users\\38730\\Desktop\\ACC102\\src\\qa\\ui_click_audit_int.js:63:14)\n    at async C:\\Users\\38730\\Desktop\\ACC102\\src\\qa\\ui_click_audit_int.js:162:5",
+      "TIMESTAMP": "2026-04-23T14:20:22.447Z"
+    }
+  ]
+}

@@ -1,0 +1,1378 @@
+{
+  "RUN_DATE": "20260427",
+  "OBJECTIVE": "Reduce data folder footprint for urgent lightweight UI/demo use.",
+  "LIGHTWEIGHT_UNIVERSE_SIZE": 50,
+  "RECENT_DATE_COUNT": 180,
+  "KEEP_TS_CODE_LIST": [
+    "000938.SZ",
+    "000988.SZ",
+    "001309.SZ",
+    "002008.SZ",
+    "002149.SZ",
+    "002281.SZ",
+    "002361.SZ",
+    "002384.SZ",
+    "002428.SZ",
+    "002463.SZ",
+    "002475.SZ",
+    "002709.SZ",
+    "002837.SZ",
+    "300058.SZ",
+    "300136.SZ",
+    "300274.SZ",
+    "300308.SZ",
+    "300342.SZ",
+    "300394.SZ",
+    "300395.SZ",
+    "300442.SZ",
+    "300456.SZ",
+    "300476.SZ",
+    "300502.SZ",
+    "300548.SZ",
+    "300620.SZ",
+    "300750.SZ",
+    "300857.SZ",
+    "301308.SZ",
+    "600105.SH",
+    "600111.SH",
+    "600118.SH",
+    "600150.SH",
+    "600330.SH",
+    "600487.SH",
+    "600498.SH",
+    "600522.SH",
+    "600703.SH",
+    "600875.SH",
+    "601138.SH",
+    "601869.SH",
+    "601899.SH",
+    "603083.SH",
+    "603986.SH",
+    "688008.SH",
+    "688041.SH",
+    "688048.SH",
+    "688256.SH",
+    "688525.SH",
+    "688820.SH"
+  ],
+  "BEFORE_TOTAL_SIZE_BYTES_THIS_RUN": 283372796,
+  "AFTER_TOTAL_SIZE_BYTES_BEFORE_AUDIT": 37975061,
+  "BEFORE_FILE_COUNT_THIS_RUN": 190,
+  "AFTER_FILE_COUNT_BEFORE_AUDIT": 89,
+  "LOCKED_FILES_NOT_REDUCED": [
+    "data\\clean\\price_panel_int_20260423.csv"
+  ],
+  "CHANGES": [
+    {
+      "PATH": "data\\feature_store\\feature_panel_int_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 248762,
+      "AFTER_ROWS": 8771,
+      "BEFORE_COLS": 48,
+      "AFTER_COLS": 48,
+      "BEFORE_SIZE_BYTES": 129985855,
+      "AFTER_SIZE_BYTES": 4330369
+    },
+    {
+      "PATH": "data\\feature_store\\target_panel_int_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 248762,
+      "AFTER_ROWS": 8771,
+      "BEFORE_COLS": 15,
+      "AFTER_COLS": 15,
+      "BEFORE_SIZE_BYTES": 47481832,
+      "AFTER_SIZE_BYTES": 1640993
+    },
+    {
+      "PATH": "data\\predictions\\baseline_prediction_int_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 44232,
+      "AFTER_ROWS": 8768,
+      "BEFORE_COLS": 4,
+      "AFTER_COLS": 4,
+      "BEFORE_SIZE_BYTES": 2712368,
+      "AFTER_SIZE_BYTES": 524146
+    },
+    {
+      "PATH": "data\\predictions\\boosted_prediction_int_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 44232,
+      "AFTER_ROWS": 8768,
+      "BEFORE_COLS": 4,
+      "AFTER_COLS": 4,
+      "BEFORE_SIZE_BYTES": 2693537,
+      "AFTER_SIZE_BYTES": 524220
+    },
+    {
+      "PATH": "data\\predictions\\boosted_prediction_int_20260424.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 44232,
+      "AFTER_ROWS": 8768,
+      "BEFORE_COLS": 4,
+      "AFTER_COLS": 4,
+      "BEFORE_SIZE_BYTES": 2696897,
+      "AFTER_SIZE_BYTES": 524123
+    },
+    {
+      "PATH": "data\\predictions\\regularized_prediction_int_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 44232,
+      "AFTER_ROWS": 8768,
+      "BEFORE_COLS": 4,
+      "AFTER_COLS": 4,
+      "BEFORE_SIZE_BYTES": 2713262,
+      "AFTER_SIZE_BYTES": 524192
+    },
+    {
+      "PATH": "data\\predictions\\walk_forward_boosted_prediction_int_20260424.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 200300,
+      "AFTER_ROWS": 8793,
+      "BEFORE_COLS": 5,
+      "AFTER_COLS": 5,
+      "BEFORE_SIZE_BYTES": 12952302,
+      "AFTER_SIZE_BYTES": 560842
+    },
+    {
+      "PATH": "data\\predictions\\walk_forward_prediction_int_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 200300,
+      "AFTER_ROWS": 8793,
+      "BEFORE_COLS": 5,
+      "AFTER_COLS": 5,
+      "BEFORE_SIZE_BYTES": 12958148,
+      "AFTER_SIZE_BYTES": 560858
+    },
+    {
+      "PATH": "data\\predictions\\walk_forward_regularized_prediction_int_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 200300,
+      "AFTER_ROWS": 8793,
+      "BEFORE_COLS": 5,
+      "AFTER_COLS": 5,
+      "BEFORE_SIZE_BYTES": 12954258,
+      "AFTER_SIZE_BYTES": 560797
+    },
+    {
+      "PATH": "data\\raw\\fund_flow_individual\\fund_flow_individual_int_002384.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 121,
+      "AFTER_ROWS": 121,
+      "BEFORE_COLS": 14,
+      "AFTER_COLS": 14,
+      "BEFORE_SIZE_BYTES": 14918,
+      "AFTER_SIZE_BYTES": 14918
+    },
+    {
+      "PATH": "data\\raw\\fund_flow_individual\\fund_flow_individual_int_300308.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 121,
+      "AFTER_ROWS": 121,
+      "BEFORE_COLS": 14,
+      "AFTER_COLS": 14,
+      "BEFORE_SIZE_BYTES": 15011,
+      "AFTER_SIZE_BYTES": 15011
+    },
+    {
+      "PATH": "data\\raw\\fund_flow_individual\\fund_flow_individual_int_300394.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 121,
+      "AFTER_ROWS": 121,
+      "BEFORE_COLS": 14,
+      "AFTER_COLS": 14,
+      "BEFORE_SIZE_BYTES": 15210,
+      "AFTER_SIZE_BYTES": 15210
+    },
+    {
+      "PATH": "data\\raw\\fund_flow_individual\\fund_flow_individual_int_300502.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 121,
+      "AFTER_ROWS": 121,
+      "BEFORE_COLS": 14,
+      "AFTER_COLS": 14,
+      "BEFORE_SIZE_BYTES": 15197,
+      "AFTER_SIZE_BYTES": 15197
+    },
+    {
+      "PATH": "data\\raw\\fund_flow_individual\\fund_flow_individual_int_601138.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 121,
+      "AFTER_ROWS": 121,
+      "BEFORE_COLS": 14,
+      "AFTER_COLS": 14,
+      "BEFORE_SIZE_BYTES": 15190,
+      "AFTER_SIZE_BYTES": 15190
+    },
+    {
+      "PATH": "data\\raw\\macro_rate_int_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 9236,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 548160,
+      "AFTER_SIZE_BYTES": 12362
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_000063.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 200578,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_000066.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 197644,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_000338.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 197045,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_000426.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 193275,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_000547.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 197507,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_000559.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 189762,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_000657.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 189634,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_000938.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 197711,
+      "AFTER_SIZE_BYTES": 19946
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_000960.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 202345,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_000977.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 199797,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_000988.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 204978,
+      "AFTER_SIZE_BYTES": 20083
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_001267.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 113404,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_001309.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 923,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 98032,
+      "AFTER_SIZE_BYTES": 20288
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_001896.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 187100,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002008.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 198446,
+      "AFTER_SIZE_BYTES": 19683
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002015.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 191218,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002050.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 198895,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002080.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 194154,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002149.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 191603,
+      "AFTER_SIZE_BYTES": 19626
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002156.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 196838,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002202.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 197799,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002222.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 194906,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002261.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 191976,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002273.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 197759,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002281.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 196203,
+      "AFTER_SIZE_BYTES": 20073
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002297.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 187156,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002342.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 185964,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002353.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 194895,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002361.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 188443,
+      "AFTER_SIZE_BYTES": 19314
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002364.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 191853,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002371.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 202229,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002384.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 202471,
+      "AFTER_SIZE_BYTES": 19956
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002407.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 194804,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002428.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 192867,
+      "AFTER_SIZE_BYTES": 19709
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002429.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 189900,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002432.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 192357,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002436.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 195196,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002460.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 197968,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002463.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 201169,
+      "AFTER_SIZE_BYTES": 19895
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002466.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 198417,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002475.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 201276,
+      "AFTER_SIZE_BYTES": 20437
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002491.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 188796,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002565.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 194824,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002580.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 188264,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002594.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 199422,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002624.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 200371,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002709.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 197775,
+      "AFTER_SIZE_BYTES": 20468
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002716.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 189543,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002812.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 195945,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002837.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 191671,
+      "AFTER_SIZE_BYTES": 19887
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002916.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 195837,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_002938.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 196023,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300014.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 199666,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300017.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 191911,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300033.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 197052,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300058.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 191039,
+      "AFTER_SIZE_BYTES": 19717
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300059.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 200857,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300102.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 189764,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300136.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 197074,
+      "AFTER_SIZE_BYTES": 19721
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300274.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 198860,
+      "AFTER_SIZE_BYTES": 20632
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300308.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 198849,
+      "AFTER_SIZE_BYTES": 20641
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300342.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 191955,
+      "AFTER_SIZE_BYTES": 19632
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300390.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 196840,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300394.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 194912,
+      "AFTER_SIZE_BYTES": 20395
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300395.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 196912,
+      "AFTER_SIZE_BYTES": 19808
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300442.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1754,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 188404,
+      "AFTER_SIZE_BYTES": 19854
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300450.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 199029,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300456.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 194220,
+      "AFTER_SIZE_BYTES": 19714
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300475.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 190297,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300476.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 196013,
+      "AFTER_SIZE_BYTES": 20744
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300502.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 196728,
+      "AFTER_SIZE_BYTES": 20529
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300548.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1766,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 193876,
+      "AFTER_SIZE_BYTES": 20224
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300570.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 194885,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300604.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 195004,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300620.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1760,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 194740,
+      "AFTER_SIZE_BYTES": 20167
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300661.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 195422,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300750.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 207673,
+      "AFTER_SIZE_BYTES": 20950
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300757.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 188755,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300782.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 183161,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_300857.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1391,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 151460,
+      "AFTER_SIZE_BYTES": 20222
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_301205.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 94852,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_301308.SZ_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 898,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 98504,
+      "AFTER_SIZE_BYTES": 20139
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_301396.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 90866,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_301526.SZ_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 59837,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600010.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 194558,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600089.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 200521,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600103.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 188913,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600105.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1771,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 191226,
+      "AFTER_SIZE_BYTES": 19950
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600111.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1771,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 197802,
+      "AFTER_SIZE_BYTES": 20007
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600118.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1771,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 196912,
+      "AFTER_SIZE_BYTES": 19921
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600126.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 189611,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600150.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1745,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 195412,
+      "AFTER_SIZE_BYTES": 19980
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600176.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 194720,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600183.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 197790,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600276.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 199292,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600330.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1771,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 191064,
+      "AFTER_SIZE_BYTES": 19760
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600392.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 195082,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600396.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 198371,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600410.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 191798,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600415.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 193575,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600482.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 194573,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600487.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1760,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 197654,
+      "AFTER_SIZE_BYTES": 19981
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600498.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1771,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 196801,
+      "AFTER_SIZE_BYTES": 19911
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600519.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 211813,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600522.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1771,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 196881,
+      "AFTER_SIZE_BYTES": 20006
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600549.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 199902,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600703.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1771,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 198573,
+      "AFTER_SIZE_BYTES": 19979
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600821.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 190811,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600875.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1771,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 196475,
+      "AFTER_SIZE_BYTES": 19911
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600879.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 192523,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600893.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 198001,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600961.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 186474,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600986.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 191423,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_600989.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 186312,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_601016.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 190090,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_601127.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 199351,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_601138.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1771,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 199855,
+      "AFTER_SIZE_BYTES": 20386
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_601179.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 190715,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_601318.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 202479,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_601698.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 179494,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_601778.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 156473,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_601869.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1771,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 193161,
+      "AFTER_SIZE_BYTES": 19976
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_601899.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1767,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 198394,
+      "AFTER_SIZE_BYTES": 20311
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_603019.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 199917,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_603083.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1771,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 193529,
+      "AFTER_SIZE_BYTES": 20210
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_603228.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 196654,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_603259.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 200464,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_603308.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 192519,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_603538.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 193302,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_603601.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 190173,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_603629.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 185683,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_603799.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 198294,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_603920.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 193590,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_603986.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1770,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 201484,
+      "AFTER_SIZE_BYTES": 20358
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_603993.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 194971,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688008.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1637,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 181513,
+      "AFTER_SIZE_BYTES": 20490
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688012.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 184646,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688041.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 884,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 99869,
+      "AFTER_SIZE_BYTES": 20669
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688048.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 982,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 107609,
+      "AFTER_SIZE_BYTES": 20822
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688158.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 166576,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688195.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 133033,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688205.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 97874,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688256.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 1396,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 156152,
+      "AFTER_SIZE_BYTES": 20776
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688313.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 148549,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688498.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 90653,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688521.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 150561,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688525.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 800,
+      "AFTER_ROWS": 180,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 87478,
+      "AFTER_SIZE_BYTES": 20156
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688629.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 74587,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688820.SH_20260423.csv",
+      "ACTION": "reduced_rows_preserved_columns",
+      "BEFORE_ROWS": 3,
+      "AFTER_ROWS": 3,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "BEFORE_SIZE_BYTES": 422,
+      "AFTER_SIZE_BYTES": 422
+    },
+    {
+      "PATH": "data\\raw\\price_daily\\price_daily_int_688981.SH_20260423.csv",
+      "ACTION": "deleted_non_lightweight_universe_price_file",
+      "BEFORE_SIZE_BYTES": 155867,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data/predictions/walk_forward_prediction_int_20260423.csv",
+      "ACTION": "deleted_ui_unused_prediction_detail",
+      "BEFORE_SIZE_BYTES": 560858,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data/predictions/walk_forward_regularized_prediction_int_20260423.csv",
+      "ACTION": "deleted_ui_unused_prediction_detail",
+      "BEFORE_SIZE_BYTES": 560797,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data/predictions/walk_forward_boosted_prediction_int_20260424.csv",
+      "ACTION": "deleted_ui_unused_prediction_detail",
+      "BEFORE_SIZE_BYTES": 560842,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data/predictions/baseline_prediction_int_20260423.csv",
+      "ACTION": "deleted_ui_unused_prediction_detail",
+      "BEFORE_SIZE_BYTES": 524146,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data/predictions/boosted_prediction_int_20260423.csv",
+      "ACTION": "deleted_ui_unused_prediction_detail",
+      "BEFORE_SIZE_BYTES": 524220,
+      "AFTER_SIZE_BYTES": 0
+    },
+    {
+      "PATH": "data\\clean\\price_panel_int_20260423.csv",
+      "ACTION": "reduced_price_panel_rows_preserved_columns",
+      "REASON": "Urgent data footprint reduction; keep only lightweight universe and recent history.",
+      "BEFORE_ROWS": 248762,
+      "AFTER_ROWS": 8771,
+      "BEFORE_COLS": 11,
+      "AFTER_COLS": 11,
+      "START_DATE": "2025-07-25",
+      "RECENT_DATE_COUNT": 180,
+      "BEFORE_SIZE_BYTES": 26969687,
+      "AFTER_SIZE_BYTES": 976148
+    }
+  ],
+  "ROLLBACK": "Restore data files from source artifacts or rerun the documented data workflow scripts for the full universe.",
+  "AFTER_REDUNDANT_DETAIL_DELETE_SIZE_BYTES": 35289117,
+  "PRICE_PANEL_REDUCTION": {
+    "PATH": "data\\clean\\price_panel_int_20260423.csv",
+    "ACTION": "reduced_price_panel_rows_preserved_columns",
+    "REASON": "Urgent data footprint reduction; keep only lightweight universe and recent history.",
+    "BEFORE_ROWS": 248762,
+    "AFTER_ROWS": 8771,
+    "BEFORE_COLS": 11,
+    "AFTER_COLS": 11,
+    "START_DATE": "2025-07-25",
+    "RECENT_DATE_COUNT": 180,
+    "BEFORE_SIZE_BYTES": 26969687,
+    "AFTER_SIZE_BYTES": 976148
+  },
+  "AFTER_PRICE_PANEL_REDUCTION_SIZE_BYTES": 9296706,
+  "AFTER_PRICE_PANEL_REDUCTION_MIB": 8.87,
+  "ROLLBACK_PRICE_PANEL": "Restore from backup/source artifacts or rerun src/workflows/merge_price_panel_int.py for full price panel."
+}

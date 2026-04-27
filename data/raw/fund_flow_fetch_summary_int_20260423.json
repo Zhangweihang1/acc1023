@@ -1,0 +1,9 @@
+{
+  "RUN_DATE": "20260423",
+  "INPUT_FILE": "C:\\Users\\38730\\Desktop\\ACC102\\data\\feature_store\\target_panel_int_20260423.csv",
+  "REQUESTED_STOCK_COUNT": 5,
+  "SUCCESS_COUNT": 5,
+  "FAILURE_COUNT": 0,
+  "OUTPUT_FILE_COUNT": 5,
+  "FAILURES": []
+}
